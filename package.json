@@ -1,0 +1,25 @@
+{
+  "name": "example-node-express-application",
+  "version": "1.0.0",
+  "description": "A sample application for educational purposes",
+  "main": "app.mjs",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp app.mjs dist/app.mjs",
+    "start": "node dist/app.mjs"
+  },
+  "git": {
+    "repository": "https://github.com/katunch/example-node-express-application"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "edu",
+    "education",
+    "docker"
+  ],
+  "author": "Silas Knobel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
